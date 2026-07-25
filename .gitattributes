@@ -1,0 +1,4 @@
+# Force resource XML files and Android manifest to be recognized as XML by GitHub Linguist
+app/src/main/res/** linguist-language=XML
+app/src/main/AndroidManifest.xml linguist-language=XML
+*.xml linguist-language=XML
