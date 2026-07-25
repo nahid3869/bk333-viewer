@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Fallback to direct after 10 seconds
         handler.postDelayed(() -> {
-            webView.loadUrl(url);
+            webView.loadUrl(currentUrl);
         }, 10000);
     }
 
