@@ -1,5 +1,5 @@
 <manifest package="com.bk333.viewer" xmlns:android="http://schemas.android.com/apk/res/android">
-  <application android:label="BK333 Viewer" android:icon="@mipmap/ic_launcher">
+  <application android:label="BK333 Viewer">
     <activity android:name=".MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
